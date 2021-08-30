@@ -14,14 +14,12 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   var _frases = [
-    "A persistência é o caminho do êxito.",
     "As pessoas costumam dizer que a motivação não dura sempre. Bem, nem o efeito do banho, por isso recomenda-se diariamente.",
     "Motivação é a arte de fazer as pessoas fazerem o que você quer que elas façam porque elas o querem fazer.",
-    "Toda ação humana, quer se torne positiva ou negativa, precisa depender de motivação.",
-    "No meio da dificuldade encontra-se a oportunidade.",
-    "Lute. Acredite. aConquiste. Perca. Deseje. Espere. Alcance. Invada. Caia. Seja tudo o quiser ser, mas acima de tudo, seja você sempre.",
-    "Eu faço da dificuldade a minha motivação. A volta por cima vem na continuação.",
-    "A verdadeira motivação vem de realização, desenvolvimento pessoal, satisfação no trabalho e reconhecimento."
+    "Algumas vezes, coisas ruins acontecem em nossas vidas para nos colocar na direção das melhores coisas que poderíamos viver.",
+    "Se a caminhada está difícil, é porque você está no caminho certo.",
+    "Insista, persista e nunca desista."
+    
   ];
   var _fraseGerada = "";
   void _GerarFrases(){
